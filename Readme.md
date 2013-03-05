@@ -1,3 +1,5 @@
+# Forked - Minor update to make this work with grunt 0.4.0
+
 # grunt-assets-revving
 
 ## Overview
@@ -27,7 +29,7 @@ Array of your static files (or string for single file).
 ``` javascript
 rev: {
   assets: {
-    files: [
+    src: [
       'index.html',
       'subdir/index.html'
     ]
